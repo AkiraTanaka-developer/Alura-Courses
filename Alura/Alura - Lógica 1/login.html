@@ -1,0 +1,27 @@
+<meta charset = "UTF-8"
+
+<h2> Login de autenticação</h2>
+
+
+<script>
+
+	var loginCadastrado = "alura"
+	var senhaCadastrado = "alura123"
+
+	var login = prompt("Informe seu Login: ");
+	var senha = prompt("Informe sua senha: ");
+	var cont = 1
+	
+		if (loginCadastrado == login && senhaCadastrado == senha){
+			alert("Bem vindo ao sistema Alura!")
+
+		}else{ 
+			while (cont < 3){
+				alert("Login ou senha inválido tente novamente...");
+				login = prompt("Informe seu Login novamente: ");
+				senha = prompt("Informe sua senha novamente: ");
+				cont ++
+				}
+			} alert("Que pena, tente relembrar a senha...")
+
+</script>

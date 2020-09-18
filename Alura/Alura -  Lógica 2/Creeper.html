@@ -1,0 +1,24 @@
+<canvas width="600" height="400">
+
+</canvas>
+
+<script>
+
+var tela = document.querySelector('canvas');
+var pincel = tela.getContext('2d');
+
+pincel.fillStyle = 'yellow';
+pincel.fillRect(0, 0, 600, 400 );
+
+pincel.fillStyle = 'darkgreen'
+pincel.fillRect(130, 50, 350 ,300); //head
+
+pincel.fillStyle = 'black'
+pincel.fillRect(180,100, 90,90); // eyes left
+pincel.fillRect(340,100, 90,90); // eyes right
+pincel.fillRect(270,190,70,100); // nose
+pincel.fillRect(230,240,40,110); // mounth left
+pincel.fillRect(340,240,40,110); // mounth right
+
+
+</script>

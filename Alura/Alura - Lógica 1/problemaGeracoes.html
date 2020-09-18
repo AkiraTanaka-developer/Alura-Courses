@@ -1,0 +1,23 @@
+<meta charset = "UTF-8">
+
+<h1>Calculo de Gerações!</h1>
+
+<script>
+
+function pulaLinha(){
+	document.write("<br>")
+}
+
+function mostra(frase){
+	document.write(frase)
+}
+
+var anoChegada = 1500;
+var novaGeracao = 28;
+var anoAtual = 2020
+var Geracoes = (anoAtual-anoChegada)/novaGeracao
+
+mostra("Desde 1500 até o 2020 nasceram " + Math.round(Geracoes) + " gerações.")
+
+</script>
+
