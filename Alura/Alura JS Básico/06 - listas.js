@@ -4,9 +4,6 @@ console.log(`Trabalhando com listas`);
 // const saoPaulo = `São Paulo`;
 // const rioJaneiro = `Rio de Janeiro`; 
 
-//Ctrl + K + C (faz um grupo de comentarios)
-//Ctrl + K + U - (retirar o grupo de comentario)
-
 const listasDeDestinos = new Array (
     `Salvador`,
     `São Paulo`,
