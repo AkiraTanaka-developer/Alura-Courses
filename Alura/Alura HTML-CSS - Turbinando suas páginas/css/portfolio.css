@@ -7,9 +7,9 @@
     padding: 1em;
     margin-right: 1em;
     margin-bottom: 1em;
-    box-shadow: 0 0 .5em #000;
 }
 
-.portfolio img { 
+.portfolio img {
     width: 100%;
+    box-shadow: 0 0 4px #000;
 }
