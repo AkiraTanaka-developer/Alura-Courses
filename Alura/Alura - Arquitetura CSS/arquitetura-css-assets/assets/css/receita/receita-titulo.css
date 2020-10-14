@@ -1,0 +1,9 @@
+.receita__titulo{
+    font-size: 1.4375rem;
+}
+
+@media screen and (min-width:768px){
+    .receita__titulo{
+        font-size: 1.20rem;
+    }
+}
