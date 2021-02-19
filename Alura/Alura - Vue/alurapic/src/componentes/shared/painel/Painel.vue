@@ -1,0 +1,46 @@
+<template>
+    <div class="painel">
+    <h2 class="painel-titulo">{{ titulo }}</h2>
+        <slot class="painel-conteudo"></slot>
+    </div>
+</template>
+
+<script>
+export default {
+    props: ['titulo']
+
+}
+</script>
+
+<style scoped>
+    .painel {
+      padding: 0 auto;
+      border: solid 1px grey;
+      display:inline-block;
+      margin: 10px;
+      box-shadow: 5px 5px 10px grey;
+      width: 200px;
+      height: 100%;
+      vertical-align: top;
+      text-align: center;
+    }
+
+    .painel .painel-titulo{
+      text-align: center;
+      border: solid 2px;
+      background: lightblue;
+      margin: 0 0 15px ;
+      padding: 10px;
+      text-transform: uppercase;
+    }
+
+    .imagem-responsiva{
+      width: 100%;
+    }
+
+    * {
+        box-shadow: 5px 5px 5px;
+    }
+
+    
+</style>
