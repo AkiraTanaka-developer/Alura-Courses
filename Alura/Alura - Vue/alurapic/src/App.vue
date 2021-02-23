@@ -1,64 +1,51 @@
-
 <template>
-
-
   <div class="corpo">
-    <h1 class="centralizado">{{ titulo }}</h1>
+  
+    <meu-menu :rotas="routes"/>
 
-    <ul class="lista-fotos">
-      <li class="lista-fotos-item" v-for="foto of fotos">
-
-        <meu-painel :titulo="foto.titulo">
-          <img class="imagem-responsiva" :src="foto.url" :alt="foto.titulo">
-        </meu-painel>
-          
-      </li>
-    </ul>
-     
+    <transition name="pagina">
+        <router-view></router-view>
+    </transition>
   </div>
 </template>
 
 <script>
+import { routes } from './routes';
+import Menu from './componentes/shared/menu/Menu.vue';
 
-import Painel from './componentes/shared/painel/Painel.vue';
 export default {
 
   components: {
-    'meu-painel': Painel
+    'meu-menu' : Menu
   },
 
-  data(){
+  data() {
 
-    return {
-      titulo: 'Alurapic',
-      fotos: []
+    return{
+      routes: routes.filter( route => route.menu)
     }
-  },
-    created() {
-
-     this.$http.get('http://localhost:3000/v1/fotos')
-        .then(res => res.json())
-        .then(fotos => this.fotos = fotos, err => console.log((err)));
   }
 }
 </script>
 
-<style>
+<style scoped>
+
     .corpo{
       font-family: Helvetica, sans-serif;
-      width: 96%;
+      width: 100%;
+      color: white;
       margin: 0 auto;
+      background: black;
     }
 
-    .centralizado {
-      text-align: center;
+    .pagina-enter, .pagina-leave-active {
+
+      opacity: 0;
+
     }
 
-    .lista-fotos {
-      list-style: none;
-    }
+    .pagina-enter-active, .pagina-leave-active {
 
-    .lista-fotos .lista-fotos-item{
-      display: inline-block;
-    }  
+      transition: opacity .4s;
+    }
 </style>
