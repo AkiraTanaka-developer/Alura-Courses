@@ -1,0 +1,15 @@
+article{
+    padding-bottom: 30px;
+    border-bottom: .5px solid #5ca3f5;
+}
+
+.leia-mais {
+    padding: 8px;
+    margin: 16px;
+    display: block;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #032a52;
+    border-radius: 5px;
+    color: #FFF;
+}

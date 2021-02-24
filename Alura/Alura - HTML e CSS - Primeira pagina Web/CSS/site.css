@@ -1,0 +1,173 @@
+aside a {
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    text-decoration: none;
+}
+
+aside h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.icones-redes-sociais li {
+    display: inline-block;
+}
+
+body{
+    font-family: "Crimson Text", "Times New Roman", serif;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+blockquote {
+    box-sizing: border-box;
+    background-color: rgb(0, 77, 179);
+    padding: 20px;
+    border: 2px #F2FFFC solid;
+    border-radius: 5px;
+    margin: 20px 40px;
+    width: 250px;
+}
+
+cite{
+    font-style: italic;
+}
+
+.container {
+    margin: 0 auto;
+    padding:60px 0;
+}
+
+div{
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+em{
+    font-style: italic;
+}
+
+
+.fiat{
+    float: right;
+}
+
+footer {
+    background-color: #000;
+    color: #F2FFFC;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    clear:both;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+}
+
+h1, h2{
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+h2{
+    font-size: 2rem;
+    padding: 1rem 0;
+    clear: both;
+}
+
+.icones-redes-sociais a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-indent: 9999px;
+}
+
+.github{
+    background-image: url(../img/github.png);
+}
+
+.linkedin{
+    background-image: url(../img/linkedin.png)
+}
+
+main {
+    line-height: 1.8rem;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    float: left;
+    width: 85%;
+}
+
+main h1{
+    color: #FAFFFA;
+    background-color: rgb(0, 77, 179);
+    text-align: center;
+    padding: 80px;
+    font-size: 3.5rem;
+    margin: 0;
+    border-bottom: 2px #eeee00 solid;
+    text-transform: uppercase;
+}
+
+main a {
+    color: #5ca3f5;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    text-decoration: none;
+}
+
+main div {
+    padding: 2rem 0;
+}
+
+.minha-foto{
+    box-sizing: border-box;
+    float: right;
+    width: 15%;
+    border-left: 1px solid #eeee00;
+    border-bottom: 1px solid #eeee00;
+    
+}
+
+.navegacao-site {
+    background-color: rgb(0, 77, 179);
+    color: #F2FFFC;
+    text-align: center;
+    float: right;
+    width: 15%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-left: 1px solid #eeee00;
+    border-bottom: 1px solid #eeee00;
+   
+}
+
+nav a {
+    color: #FEF;
+    text-transform: lowercase;
+}
+
+strong {
+    font-weight: bold;
+}
+
+p {
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.petrobras {
+    float: left;
+}
+
+.twitter {
+    background-image: url(../img/twitter.png)
+}
+
+ul {
+    color:rgb(0, 77, 179);
+    list-style: none;
+}
+
