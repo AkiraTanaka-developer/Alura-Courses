@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="329BE76E-AC03-0899-979F-3476A8982078" mainViewID="1EF503B8-350A-ABF7-F01D-29A9C7A4B2A4">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:00:54 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

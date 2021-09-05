@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9738F4AD-7E56-1571-60B7-F4F744584400" schemaObject="8445B828-4F98-FB89-7E8B-72127448E758" name="TABELA_DE_VENDEDORES">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>TABELA_DE_VENDEDORES</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:18 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MATRICULA" id="E8F655DE-9FDD-D23E-C1B6-77437C051FA3">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>TABELA_DE_VENDEDORES</sourceObjSchema>
+<sourceObjName>MATRICULA</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:19 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="58D52DB6-59E6-5B70-FE9B-5BABC3A10E80">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>TABELA_DE_VENDEDORES</sourceObjSchema>
+<sourceObjName>NOME</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:19 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PERCENTUAL_COMISSAO" id="4C2A4966-87E0-52CB-E5E5-96B0298D4419">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>TABELA_DE_VENDEDORES</sourceObjSchema>
+<sourceObjName>PERCENTUAL_COMISSAO</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:19 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+<ownDataTypeParameters>,126,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_ADMISSAO" id="0E2B4406-D3E9-8904-95E8-FB147AFD913F">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>TABELA_DE_VENDEDORES</sourceObjSchema>
+<sourceObjName>DATA_ADMISSAO</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:19 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DE_FERIAS" id="F46EFC22-FF67-F7FD-41B4-A589EB536DD2">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>TABELA_DE_VENDEDORES</sourceObjSchema>
+<sourceObjName>DE_FERIAS</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:19 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BAIRRO" id="C8898DCE-99CF-1823-DF23-56F9061C37C3">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>TABELA_DE_VENDEDORES</sourceObjSchema>
+<sourceObjName>BAIRRO</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:19 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60D2EBF8-7649-508B-0489-D0196A671181" name="PK_TABELA_DE_VENDEDORES">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_TABELA_DE_VENDEDORES</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:19 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8F655DE-9FDD-D23E-C1B6-77437C051FA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7B15BDE5-9CBB-A067-54F6-804A00E859E3" schemaObject="8445B828-4F98-FB89-7E8B-72127448E758" name="PK_TABELA_DE_VENDEDORES">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_TABELA_DE_VENDEDORES</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:19 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8F655DE-9FDD-D23E-C1B6-77437C051FA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

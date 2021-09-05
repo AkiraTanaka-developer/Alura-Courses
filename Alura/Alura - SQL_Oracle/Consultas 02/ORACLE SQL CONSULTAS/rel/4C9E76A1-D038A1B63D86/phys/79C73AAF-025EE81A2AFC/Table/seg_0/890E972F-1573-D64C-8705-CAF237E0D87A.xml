@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TB_PRODUTOS" directorySegmentName="seg_0" id="890E972F-1573-D64C-8705-CAF237E0D87A">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:28 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<schemaObject>8445B828-4F98-FB89-7E8B-72127448E758</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>5F0A99BE-729B-958D-3F7E-71731ABF75EE</segment>
+<tableSpace>E2197495-8DB0-9A93-E8BE-96233906A5C0</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PRECO_LISTA" id="3D710105-0F00-1945-B2EF-FCA6BA402158">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:28 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TAMANHO" id="4E27F79D-5EE5-2307-53A8-84E7132D5CC5">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:28 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOME" id="7027EB74-854B-8F5A-40C3-C644A94F8E53">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:28 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SABOR" id="9049E62E-3C54-1AF0-4E71-778ABA89A15F">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:28 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMBALAGEM" id="A6D8FDD0-B712-A011-0D84-D5EE31335148">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:28 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRODUTO" id="FA90BB21-AEDF-F5CC-4395-86E479EE71FB">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:28 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_TB_PRODUTOS" id="AD24046B-79BA-2B40-67CF-F27DEF919BB5">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:28 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<schemaObject>8445B828-4F98-FB89-7E8B-72127448E758</schemaObject>
+<segment>45E109C9-8D28-3474-FB70-2488EE776C4C</segment>
+<tableSpace>E2197495-8DB0-9A93-E8BE-96233906A5C0</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_TB_PRODUTOS" id="856A6E25-28E6-917F-191A-02DA653ACB29">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:29 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<segment>45E109C9-8D28-3474-FB70-2488EE776C4C</segment>
+<tableSpace>E2197495-8DB0-9A93-E8BE-96233906A5C0</tableSpace>
+<existingIndex>AD24046B-79BA-2B40-67CF-F27DEF919BB5</existingIndex>
+<indexSegment>45E109C9-8D28-3474-FB70-2488EE776C4C</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

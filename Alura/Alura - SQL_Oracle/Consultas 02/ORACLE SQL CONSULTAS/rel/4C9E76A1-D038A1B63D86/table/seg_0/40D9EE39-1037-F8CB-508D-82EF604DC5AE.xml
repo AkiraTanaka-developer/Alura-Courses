@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="40D9EE39-1037-F8CB-508D-82EF604DC5AE" schemaObject="8445B828-4F98-FB89-7E8B-72127448E758" name="NOTAS_FISCAIS">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>NOTAS_FISCAIS</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:44 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CPF" id="B13F6809-CD22-1422-8D4C-BB3473A736D4">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>NOTAS_FISCAIS</sourceObjSchema>
+<sourceObjName>CPF</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:44 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MATRICULA" id="2F5CFA79-B3B4-2C4A-EC2A-3DBB4FF36896">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>NOTAS_FISCAIS</sourceObjSchema>
+<sourceObjName>MATRICULA</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:44 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A97DE58-40AE-9E86-7F76-4B46ED633729" referredColumn="E8F655DE-9FDD-D23E-C1B6-77437C051FA3"/>
+</associations>
+</Column>
+<Column name="DATA_VENDA" id="AE40C053-2DE0-F942-1B13-6DF12FE97BE1">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>NOTAS_FISCAIS</sourceObjSchema>
+<sourceObjName>DATA_VENDA</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:44 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMERO" id="AB2DBA2F-DB0D-646D-9ABE-48D2DBDCA15D">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>NOTAS_FISCAIS</sourceObjSchema>
+<sourceObjName>NUMERO</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:44 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMPOSTO" id="6AAABAE9-9E91-3E14-9396-C280535F94BD">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>NOTAS_FISCAIS</sourceObjSchema>
+<sourceObjName>IMPOSTO</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:44 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+<ownDataTypeParameters>,126,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BED790E0-4F16-5B29-6A07-79FA25ED65C8" name="PK_NOTAS_FISCAIS">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_NOTAS_FISCAIS</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:44 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB2DBA2F-DB0D-646D-9ABE-48D2DBDCA15D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FCB240E-C874-EA09-E6AF-316C1D50818C" schemaObject="8445B828-4F98-FB89-7E8B-72127448E758" name="PK_NOTAS_FISCAIS">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_NOTAS_FISCAIS</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:44 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB2DBA2F-DB0D-646D-9ABE-48D2DBDCA15D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="762BAA3F-2349-ED13-D124-B871FBBD5D84" name="FK_NOTAS_FISCAIS1">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:44 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F5CFA79-B3B4-2C4A-EC2A-3DBB4FF36896"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DEFAE1C-AE5C-D314-DBE5-AA9048E375EB" name="FK_NOTAS_FISCAIS2">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:44 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B13F6809-CD22-1422-8D4C-BB3473A736D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

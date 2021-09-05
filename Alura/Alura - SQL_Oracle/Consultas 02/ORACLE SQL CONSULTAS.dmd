@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ORACLE SQL CONSULTAS" id="805AF855-D07F-7017-A9AF-957E5ABE4441" version="3.5">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:00:54 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>805AF855-D07F-7017-A9AF-957E5ABE4441</designId>
+</OSDM_Design>

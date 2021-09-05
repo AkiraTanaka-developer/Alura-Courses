@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="A0E839BB-24AA-D645-F075-7152DBF8CAE1">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:00:54 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

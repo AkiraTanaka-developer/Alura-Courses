@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A30B848A-EEDB-A4B9-6C7E-0EB88221EA31" schemaObject="8445B828-4F98-FB89-7E8B-72127448E758" name="ITENS_NOTAS_FISCAIS">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>ITENS_NOTAS_FISCAIS</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:12:24 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NUMERO" id="F8E13BC5-BC56-6CA5-2FDB-D3C237EC7D26">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>ITENS_NOTAS_FISCAIS</sourceObjSchema>
+<sourceObjName>NUMERO</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:12:24 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="709D0B61-6490-DCBE-C2D4-9595C5ECFF1F" referredColumn="AB2DBA2F-DB0D-646D-9ABE-48D2DBDCA15D"/>
+</associations>
+</Column>
+<Column name="CODIGO_DO_PRODUTO" id="8C053C0E-DF8C-2781-3C8A-8258A7EC33D2">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>ITENS_NOTAS_FISCAIS</sourceObjSchema>
+<sourceObjName>CODIGO_DO_PRODUTO</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:12:24 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUANTIDADE" id="93B76536-0681-E179-5EE3-0E0924FBCC8E">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>ITENS_NOTAS_FISCAIS</sourceObjSchema>
+<sourceObjName>QUANTIDADE</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:12:24 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECO" id="F96E47A2-92A2-7593-86D2-1B186114EABF">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>ITENS_NOTAS_FISCAIS</sourceObjSchema>
+<sourceObjName>PRECO</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:12:24 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+<ownDataTypeParameters>,126,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8EDA716-E525-49BC-8FA0-7E1019D9D751" name="PK_ITENS_NOTAS_FISCAIS">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_ITENS_NOTAS_FISCAIS</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:12:24 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8E13BC5-BC56-6CA5-2FDB-D3C237EC7D26"/>
+<colUsage columnID="8C053C0E-DF8C-2781-3C8A-8258A7EC33D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B1BC3AB-1573-271E-089B-3D30FCF7817E" schemaObject="8445B828-4F98-FB89-7E8B-72127448E758" name="PK_ITENS_NOTAS_FISCAIS">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_ITENS_NOTAS_FISCAIS</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:12:24 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8E13BC5-BC56-6CA5-2FDB-D3C237EC7D26"/>
+<colUsage columnID="8C053C0E-DF8C-2781-3C8A-8258A7EC33D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7174B00-22C0-6E62-AB0E-256E299F8990" name="FK_ITENS_NOTAS_FISCAIS1">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:12:24 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C053C0E-DF8C-2781-3C8A-8258A7EC33D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC4D22C6-3202-9E50-86E7-C4E9D295B10D" name="FK_ITENS_NOTAS_FISCAIS2">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:12:24 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8E13BC5-BC56-6CA5-2FDB-D3C237EC7D26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

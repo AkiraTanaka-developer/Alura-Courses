@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="NOTAS_FISCAIS" directorySegmentName="seg_0" id="40D9EE39-1037-F8CB-508D-82EF604DC5AE">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:44 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<schemaObject>8445B828-4F98-FB89-7E8B-72127448E758</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>5F0A99BE-729B-958D-3F7E-71731ABF75EE</segment>
+<tableSpace>E2197495-8DB0-9A93-E8BE-96233906A5C0</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MATRICULA" id="2F5CFA79-B3B4-2C4A-EC2A-3DBB4FF36896">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:44 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="IMPOSTO" id="6AAABAE9-9E91-3E14-9396-C280535F94BD">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:44 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUMERO" id="AB2DBA2F-DB0D-646D-9ABE-48D2DBDCA15D">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:44 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DATA_VENDA" id="AE40C053-2DE0-F942-1B13-6DF12FE97BE1">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:44 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CPF" id="B13F6809-CD22-1422-8D4C-BB3473A736D4">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:44 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_NOTAS_FISCAIS" id="6FCB240E-C874-EA09-E6AF-316C1D50818C">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:44 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<schemaObject>8445B828-4F98-FB89-7E8B-72127448E758</schemaObject>
+<segment>45E109C9-8D28-3474-FB70-2488EE776C4C</segment>
+<tableSpace>E2197495-8DB0-9A93-E8BE-96233906A5C0</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_NOTAS_FISCAIS2" id="1DEFAE1C-AE5C-D314-DBE5-AA9048E375EB">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:44 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_NOTAS_FISCAIS1" id="762BAA3F-2349-ED13-D124-B871FBBD5D84">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:44 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_NOTAS_FISCAIS" id="BED790E0-4F16-5B29-6A07-79FA25ED65C8">
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:44 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<segment>45E109C9-8D28-3474-FB70-2488EE776C4C</segment>
+<tableSpace>E2197495-8DB0-9A93-E8BE-96233906A5C0</tableSpace>
+<existingIndex>6FCB240E-C874-EA09-E6AF-316C1D50818C</existingIndex>
+<indexSegment>45E109C9-8D28-3474-FB70-2488EE776C4C</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

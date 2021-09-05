@@ -1,0 +1,254 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E6C6FD6-B99D-B794-7D27-3CF3DD1ED231" schemaObject="8445B828-4F98-FB89-7E8B-72127448E758" name="TB_CLIENTES">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>TB_CLIENTES</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:33 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CPF" id="9A44D001-A2F6-B46A-2BAE-70FBCDBB274D">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>TB_CLIENTES</sourceObjSchema>
+<sourceObjName>CPF</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:33 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOME" id="7FDDD772-7016-BFBA-4D3E-61B08419B256">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>TB_CLIENTES</sourceObjSchema>
+<sourceObjName>NOME</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:33 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDERECO1" id="8A6A0DF8-EE6F-830C-4A91-E6EB4175B95C">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>TB_CLIENTES</sourceObjSchema>
+<sourceObjName>ENDERECO1</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:33 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENDERECO2" id="51561D39-3E55-32C8-EA2F-EB973193868B">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>TB_CLIENTES</sourceObjSchema>
+<sourceObjName>ENDERECO2</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:33 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 BYTE</dataTypeSize>
+<ownDataTypeParameters>150 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BAIRRO" id="2CC6A95F-524D-A7F7-AC79-D7CC0CF2EA83">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>TB_CLIENTES</sourceObjSchema>
+<sourceObjName>BAIRRO</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:33 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIDADE" id="C2E1C78E-5CC4-8CB3-1F0F-9DDD0A8A73D5">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>TB_CLIENTES</sourceObjSchema>
+<sourceObjName>CIDADE</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:33 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="135E344D-3831-56DA-B5FB-9F527A6C9D06">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>TB_CLIENTES</sourceObjSchema>
+<sourceObjName>ESTADO</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:33 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CEP" id="E15E8C34-FDFA-27AA-B2E6-B27E50CF6BED">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>TB_CLIENTES</sourceObjSchema>
+<sourceObjName>CEP</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:33 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IDADE" id="38E83770-86D5-0CB0-B793-15BA55A4F7A7">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>TB_CLIENTES</sourceObjSchema>
+<sourceObjName>IDADE</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:33 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEXO" id="1F3D85C5-52F4-76B0-4463-FAA3EFB78681">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>TB_CLIENTES</sourceObjSchema>
+<sourceObjName>SEXO</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:33 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIMITE_CREDITO" id="75D7C047-8BBC-7E8A-62D3-39B59BD03833">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>TB_CLIENTES</sourceObjSchema>
+<sourceObjName>LIMITE_CREDITO</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:33 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+<ownDataTypeParameters>,126,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VOLUME_COMPRA" id="8CA0E156-4937-8711-D4B0-A67F5D62A51F">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>TB_CLIENTES</sourceObjSchema>
+<sourceObjName>VOLUME_COMPRA</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:33 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>126</dataTypePrecision>
+<ownDataTypeParameters>,126,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRIMEIRA_COMPRA" id="49470177-335C-67BA-59FB-794D95692516">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>TB_CLIENTES</sourceObjSchema>
+<sourceObjName>PRIMEIRA_COMPRA</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:33 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_NASCIMENTO" id="304F6252-33B1-AD4A-67D4-F774E9BC829A">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>TB_CLIENTES</sourceObjSchema>
+<sourceObjName>DATA_NASCIMENTO</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:33 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38E26D38-2F23-8661-3D0B-09CEEC3CADB8" name="PK_TB_CLIENTES">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_TB_CLIENTES</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:33 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A44D001-A2F6-B46A-2BAE-70FBCDBB274D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28D24444-352A-DE72-3E43-56C8E19B3BCD" schemaObject="8445B828-4F98-FB89-7E8B-72127448E758" name="PK_TB_CLIENTES">
+<sourceConnName>CONEX%C3%83O+ORACLE+XE</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>PK_TB_CLIENTES</sourceObjName>
+<createdBy>azuma</createdBy>
+<createdTime>2021-09-05 20:11:33 UTC</createdTime>
+<ownerDesignName>ORACLE SQL CONSULTAS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A44D001-A2F6-B46A-2BAE-70FBCDBB274D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
