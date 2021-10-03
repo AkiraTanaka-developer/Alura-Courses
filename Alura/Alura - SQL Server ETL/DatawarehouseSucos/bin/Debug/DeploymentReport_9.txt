@@ -1,0 +1,26 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Fato003].[Custo_Fixo] is being dropped, data loss could occur.
+
+** User actions
+     Alter
+       [dbo].[Fato003] (Table)
+     Create
+       [dbo].[FK_Fato_004_Dim_Cliente] (Foreign Key)
+       [dbo].[FK_Fato_004_Dim_Organizacional] (Foreign Key)
+       [dbo].[FK_Fato_004_Dim_Produto] (Foreign Key)
+       [dbo].[FK_Fato_004_Dim_Tempo] (Foreign Key)
+       [dbo].[FK_Fato_005_DIM_Fabrica] (Foreign Key)
+       [dbo].[FK_Fato_005_Dim_Produto] (Foreign Key)
+       [dbo].[FK_Fato_005_Dim_Tempo] (Foreign Key)
+
+** Supporting actions
+
+The column [dbo].[Fato003].[Custo_Fixo] is being dropped, data loss could occur.
+

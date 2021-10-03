@@ -1,0 +1,9 @@
+C:\Users\azuma\OneDrive\particular\GitHub\Pasta-de-estudos\Alura\Alura - SQL Server ETL\DatawarehouseSucos\bin\Debug\DatawarehouseSucos.dacpac
+C:\Users\azuma\OneDrive\particular\GitHub\Pasta-de-estudos\Alura\Alura - SQL Server ETL\DatawarehouseSucos\bin\Debug\DatawarehouseSucos.dll
+C:\Users\azuma\OneDrive\particular\GitHub\Pasta-de-estudos\Alura\Alura - SQL Server ETL\DatawarehouseSucos\bin\Debug\DatawarehouseSucos.pdb
+C:\Users\azuma\OneDrive\particular\GitHub\Pasta-de-estudos\Alura\Alura - SQL Server ETL\DatawarehouseSucos\obj\Debug\DatawarehouseSucos.dll
+C:\Users\azuma\OneDrive\particular\GitHub\Pasta-de-estudos\Alura\Alura - SQL Server ETL\DatawarehouseSucos\obj\Debug\DatawarehouseSucos.pdb
+C:\Users\azuma\OneDrive\particular\GitHub\Pasta-de-estudos\Alura\Alura - SQL Server ETL\DatawarehouseSucos\obj\Debug\Model.xml
+C:\Users\azuma\OneDrive\particular\GitHub\Pasta-de-estudos\Alura\Alura - SQL Server ETL\DatawarehouseSucos\obj\Debug\refactor.xml
+C:\Users\azuma\OneDrive\particular\GitHub\Pasta-de-estudos\Alura\Alura - SQL Server ETL\DatawarehouseSucos\obj\Debug\postdeploy.sql
+C:\Users\azuma\OneDrive\particular\GitHub\Pasta-de-estudos\Alura\Alura - SQL Server ETL\DatawarehouseSucos\obj\Debug\predeploy.sql
